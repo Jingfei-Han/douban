@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06a2820d-8846-4907-acad-c208882c6fed" name="Default" comment="" />
+    <list default="true" id="06a2820d-8846-4907-acad-c208882c6fed" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/douban/pipelines.py" afterPath="$PROJECT_DIR$/douban/pipelines.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/douban/spiders/doubanSpider.py" afterPath="$PROJECT_DIR$/douban/spiders/doubanSpider.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res.json" afterPath="$PROJECT_DIR$/res.json" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,34 +18,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run.py">
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/douban/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            <state relative-caret-position="336">
+              <caret line="53" column="45" lean-forward="false" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="res.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1494925735759" expanded="true" signature="13240:13263" ph="[...]" />
-                <marker date="1494925735759" expanded="true" signature="13242:13263" ph="[...]" />
-                <marker date="1494925735759" expanded="true" signature="13244:13263" ph="[...]" />
-                <marker date="1494925735759" expanded="true" signature="13246:13263" ph="[...]" />
-                <marker date="1494925735759" expanded="true" signature="13248:13263" ph="[...]" />
-                <marker date="1494925735759" expanded="true" signature="13250:13263" ph="[...]" />
-                <marker date="1494925735759" expanded="true" signature="13252:13263" ph="[...]" />
-                <marker date="1494925735759" expanded="true" signature="13254:13263" ph="[...]" />
-                <marker date="1494925735759" expanded="true" signature="13256:13263" ph="[...]" />
-                <marker date="1494925735759" expanded="true" signature="13258:13263" ph="[...]" />
-                <marker date="1494925735759" expanded="true" signature="13260:13263" ph="[...]" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -47,8 +31,8 @@
       <file leaf-file-name="doubanSpider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/douban/spiders/doubanSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+            <state relative-caret-position="247">
+              <caret line="39" column="90" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="39" selection-end-column="90" />
               <folding>
                 <element signature="e#16#29#0" expanded="true" />
               </folding>
@@ -56,27 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/douban/items.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/douban/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -110,6 +77,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -137,9 +105,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="douban" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="douban" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="douban" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,6 +261,14 @@
       <option name="presentableId" value="Default" />
       <updated>1494833976459</updated>
     </task>
+    <task id="LOCAL-00001" summary="更改插入顺序">
+      <created>1494926671869</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1494926671869</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -285,7 +278,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -304,8 +297,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更改插入顺序" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改插入顺序" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -321,19 +320,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douban/spiders/doubanSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
           <folding>
-            <marker date="1494925735759" expanded="true" signature="13240:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13242:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13244:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13246:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13248:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13250:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13252:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13254:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13256:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13258:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13260:13263" ph="[...]" />
+            <element signature="e#16#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douban/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douban/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="39" column="15" lean-forward="true" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -359,19 +388,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1494925735759" expanded="true" signature="13240:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13242:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13244:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13246:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13248:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13250:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13252:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13254:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13256:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13258:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13260:13263" ph="[...]" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -389,19 +406,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1494925735759" expanded="true" signature="13240:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13242:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13244:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13246:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13248:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13250:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13252:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13254:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13256:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13258:13263" ph="[...]" />
-            <marker date="1494925735759" expanded="true" signature="13260:13263" ph="[...]" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -415,7 +420,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/douban/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="380">
           <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding />
         </state>
@@ -423,8 +428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/douban/spiders/doubanSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        <state relative-caret-position="247">
+          <caret line="39" column="90" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="39" selection-end-column="90" />
           <folding>
             <element signature="e#16#29#0" expanded="true" />
           </folding>
@@ -433,8 +438,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/douban/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        <state relative-caret-position="336">
+          <caret line="53" column="45" lean-forward="false" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
           <folding />
         </state>
       </provider>

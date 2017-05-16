@@ -33,8 +33,8 @@ class doubanSpider(scrapy.Spider):
 			
 
 		#go to the next page
-		next_page = response.css("span.next a::attr(href)").extract_first()
-
-		if next_page is not None:
-			next_page = response.urljoin(next_page)
-			yield scrapy.Request(url=next_page, headers=self.headers, callback=self.parse)
+		# next_page = response.css("span.next a::attr(href)").extract_first()
+        #
+		# if next_page is not None:
+		# 	next_page = response.urljoin(next_page)
+		# 	yield scrapy.Request(url=next_page, headers=self.headers, callback=self.parse)
