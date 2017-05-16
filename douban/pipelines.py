@@ -33,7 +33,8 @@ class MySQLPipeline(object):
 		return d
 
 	def _do_upinsert(self, conn, item, spider):
-		sql1 = "INSERT INTO top250 VALUES(%d, %s, %d, %f, %s, %s, %s)"
+		sql1 = "INSERT INTO top250(top250_id, top250_title, top250_star, top250_year, top250_country, top250_type, top250_quote)\
+			VALUES(%d, %s, %f, %d, %s, %s, %s)"
 		try:
 			conn.execute(sql1, (item['index'], item['title'], item['star'], item['year'], item['country'], item['doubantype'], item['quote']))
 		except:
